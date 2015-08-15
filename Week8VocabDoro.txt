@@ -1,0 +1,48 @@
+Week 8 Vocabulary 
+Dorothy Hunt
+
+Object  -  An object is basically a block of memory that has been allocated and configured according to the blueprint. They are also called instances, and they can be stored in either a named variable or in an array or collection.
+
+Object-Oriented Programming (OOP) - Object-oriented programming (OOP) is a programming paradigm, which uses objects and their interactions for building computer programs.
+
+Object Instance - An instance of a class is called an object.
+
+Object Instantiation - The act of creating an object is called instantiation.
+
+Object Constructor - Constructors enable the programmer to set default values, limit instantiation, and write code that is flexible and easy to read. Instance constructors are used to create and initialize any instance member variables when you use the new expression to create an object of a class. 
+
+The "new" keyword - The creation of objects from preliminarily defined classes during program execution is performed by the operator new. New is used to create objects and invoke constructors.
+
+Fields - A field is a variable of any type that is declared directly in a class or struct. Fields are members of their containing type. Fields are ordinary member variables or member instances of a class.  Member-variables from a certain type.
+
+Properties - Properties are an abstraction to get and set their values. hese are a special type of elements, which extend the functionality of the fields by giving the ability of extra data management when extracting and recording it in the class fields. 
+
+Methods - A method is a code block that contains a series of statements. They implement the manipulation of the data.
+
+Static Members - Special categories fields and methods, which are associated with the data type (class), and not with the specific instance (object). They are independent of concrete objects.  They are used without the need of creating an instance of the class in which they are defined. 
+
+Non-Static Members - Can only be accessed from the instance it belongs to. Non-static members are initialized with the call to the constructor of the class when creating an instance of it.
+
+.NET - NET is a Microsoft operating system platform that incorporates applications and a suite of tools and services. The .NET Framework comes with a set of programming languages compilers and standard class library which provides thousands of system classes for accomplishing the most common tasks in programming.
+
+Encapsulation (in OOP) - a strategy used as part of abstraction. Encapsulation refers to the state of objects - objects encapsulate their state and hide it from the outside. Outside users of the class interact with it through its methods, but cannot access the classes state directly.
+
+Class (in OOP) - The class defines abstract characteristics of objects. It provides a structure for objects or a pattern which we use to describe the nature of some object. It defines the characteristics of an object and its behavior.
+
+Heap - Dynamic memory. The Heap is more or less responsible for keeping track of our objects. its purpose is to hold information so anything in our Heap can be accessed at  any time. 
+
+.NET CLR (garbage collection) -  System for cleaning the memory which takes care of releasing unused objects. CLR stands for Common Language Runtime. 
+
+Namespace -  Named groups of classes, which are logically related without any specific requirement on how to be placed in the file system. namespaces contribute to a better logical organization of the source code by creating a semantic division of the classes in categories and makes easier their usage in the source code.
+
+Constant (data in programming) - Immutable variables whose values are assigned during their initialization in the source code of the program and after that they cannot be changed.
+
+Utility Class - A class that has static members and private constructors that cannot be instantiated. Provides a collection of helper functions.
+
+Public Member (OOP) - Access modifier that does not introduce any restrictions for calling the method, i.e. makes it publicly available. Public access is the most permissive access level. There are no restrictions on accessing public members.
+
+Private Member (OOP) - Opposite of public member. It is an access modifier that is limited to the containing type. Private members are accessible only within the body of the class or the struct in which they are declared.
+
+The "using" keyword -  Two major uses: 
+As a directive, when it is used to create an alias for a namespace or to import types defined in other namespaces.
+As a statement, when it defines a scope at the end of which an object will be disposed. 
